@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/external/style.fab.css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <meta property="og:image" content="./assets/images/powder.jpg">
+    <meta property="og:image:secure_url" content="./assets/images/powder.jpg">
+    <title>wdpm</title>
+  </head>
+  <body>
+    <!-- не нужно -->
+    <style>
+      .layout-header-holder{
+        display: none;
+      }
+      .layout-header {
+        width: 100%;
+        height: 6.9em;
+        display: none;
+      }
+
+      .layout-header-fixed {
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        background-color: #f1f1f1;
+      }
+
+      .layout-footer {
+        position: relative;
+        z-index: 3;
+        height: 40em;
+        background-color: #f1f1f1;
+      }
+
+      @media (max-width: 768px) {
+        .layout-header {
+          height: 4.3em;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .layout-header {
+          height: 3em;
+        }
+
+        .layout-footer {
+          height: 20em;
+        }
+      }
+    </style>
+    <div class="layout-header layout-header-fixed"></div>
+    <div class="layout-header-holder"></div>
+    <!-- не нужно -->
+    <div class="_app" data-lazy-container data-lazy-medias="min-width: 769px, max-width: 768px, max-width: 480px" data-lazy-offset="-1">
+      <div class="_intro" data-lazy-element data-lazy-folder="assets/images/01_intro/" data-lazy-names="01_desktop.jpg, 01_desktop.webp * 01_tablet.jpg, 01_tablet.webp * 01_mobile.jpg, 01_mobile.webp">
+  <div class="_intro__part-1">
+    <div class="_intro__heading">Тот момент, когда&nbsp;<br />идеальная кожа&nbsp;<br />на раз-два!</div>
+    <div class="_intro__tablet-product-name">Пудра для лица Wet & Dry Perfect Me</div>
+    <button class="js-landing-button _common-button _intro__buy-button" data-scroll-to="._shades" data-title="Купить" >Купить</button>
+  </div>
+
+  <div class="_intro__part-2">
+    <!-- <div class="_intro__product-name">Пудра для лица&nbsp;<br />Wet & Dry Perfect Me</div> -->
+
+    <img class="_intro__powder" src="#" alt="Пудра для лица" data-lazy-element data-lazy-folder="assets/images/01_intro/" data-lazy-names="02_desktop.png, 02_desktop.webp * 02_tablet.png, 02_tablet.webp * 02_mobile.png, 02_mobile.webp" />
+  </div>
+</div>
+      <section class="_about" data-observe="_about_shown 0.4" >
+  <div class="_about__main-column">
+    <div class="_about__part-1">
+      <h2 class="_logo-1 _about__heading">
+        <span class="_logo-1__part-1">Пудра для лица</span>
+        <span class="_logo-1__part-2">Wet & Dry Perfect Me</span>
+      </h2>
+      <p class="_about__desc">
+        <span class="_about__desc__part"> Универсальная пудра. Выбирайте плотность в зависимости от макияжа: лёгкий и натуральный или идеально ровный вечерний тон. </span>
+
+        <span class="_about__desc__part"> Пара движений для любого решения. Пудра предотвращает жирный блеск и превосходно скрывает несовершенства кожи. </span>
+      </p>
+    </div>
+
+    <div class="_about__part-2" id="scrollto__about__part-2">
+      
+      <img class="_about__powder-image _about__powder-image_1" src="#" alt="Вид Коробки" data-lazy-element data-lazy-folder="assets/images/02_about/" data-lazy-names="01_desktop.png, 01_desktop.webp * 01_tablet.png, 01_tablet.webp * 01_mobile.png, 01_mobile.webp" />
+      <img class="_about__powder-image _about__powder-image_2" src="#" alt="Вид пудры в закрытом состоянии" data-lazy-element data-lazy-folder="assets/images/02_about/" data-lazy-names="02_desktop.png, 02_desktop.webp * 02_tablet.png, 02_tablet.webp * 02_mobile.png, 02_mobile.webp" />
+      <img class="_about__powder-image _about__powder-image_3" src="#" alt="Вид пудры в открытом состоянии" data-lazy-element data-lazy-folder="assets/images/02_about/" data-lazy-names="03_desktop.png, 03_desktop.webp * 03_tablet.png, 03_tablet.webp * 03_mobile.png, 03_mobile.webp" />
+    </div>
+
+    <div class="_about__part-3">
+
+      <div class="_new-old-price _about__new-old-price">
+        <div class="_new-old-price__old js-landing-product-price" data-product-code="01020302-00170" data-type="black">1 300 руб.</div>
+        <div class="_new-old-price__new js-landing-product-price" data-product-code="01020302-00170" data-type="base">399 руб.</div>
+      </div>      
+
+      <div class="_about__btns-group btns-group">
+    <div class="_common-buttons">
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-00170">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse">Купить</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="_about__select-color select-color">
+        <input class="select-color__radio select-color__radio--1" type="radio" name="radio-color-1" value="01020302-00170" id="1-radio-color-1" data-axapta="01020302-00170" data-article="6349" data-color="фарфоровый" checked>
+        <label class="select-color__label" for="1-radio-color-1">
+        <img class="select-color__img" src="assets/images/02_about/color-1.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Фарфоровый</span>
+            <span class="select-color__tooltip-article">(Арт. 6349)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--2" type="radio" name="radio-color-1" value="01020302-013651" id="1-radio-color-2" data-axapta="01020302-013651" data-article="6533" data-color="слоновая кость">
+        <label class="select-color__label" for="1-radio-color-2">
+        <img class="select-color__img" src="assets/images/02_about/color-2.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Слоновая кость</span>
+            <span class="select-color__tooltip-article">(Арт. 6533)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--3" type="radio" name="radio-color-1" value="01020302-00171" id="1-radio-color-3" data-axapta="01020302-00171" data-article="6364" data-color="естественный бежевый">
+        <label class="select-color__label" for="1-radio-color-3">
+        <img class="select-color__img" src="assets/images/02_about/color-3.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Естественный бежевый</span>
+            <span class="select-color__tooltip-article">(Арт. 6364)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--4" type="radio" name="radio-color-1" value="01020302-00172" id="1-radio-color-4" data-axapta="01020302-00172" data-article="6379" data-color="золотисто-бежевый">
+        <label class="select-color__label" for="1-radio-color-4">
+        <img class="select-color__img" src="assets/images/02_about/color-4.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Золотисто-бежевый</span>
+            <span class="select-color__tooltip-article">(Арт. 6379)</span>
+        </span>
+        </label>
+    </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+      <section class="_shades">
+  <h2 class="_shades__heading">
+    <span class="_shades__heading__part-1">4</span>
+    <span class="_shades__heading__parts-box">
+      <span class="_shades__heading__part-2">оттенка</span>
+      <span class="_shades__heading__part-3">для естественного&nbsp;<br>матового финиша</span>
+    </span>
+  </h2>
+
+  <div class="_shades__buy-block">
+    <img class="_shades__powder" src="#" alt="Рассыпанная пудра" data-lazy-element data-lazy-folder="assets/images/03_shades/" data-lazy-names="01_desktop.png, 01_desktop.webp * 01_tablet.png, 01_tablet.webp * 01_mobile.png, 01_mobile.webp">
+
+    <div class="_buy-card _shades__buy-card _shades__buy-card_1">
+  <button class="_plus-button _buy-card__toggle-button">
+    <span class="_plus-button__inner"><span class="_placeholder">&nbsp;</span></span>
+    <span class="_plus-button__outer"><span class="_placeholder">&nbsp;</span></span>
+  </button>
+
+  <div class="_buy-card__container">
+    <!-- <div class="_buy-card__header">
+      <div class="_buy-card__title">Шок-цена</div>
+      <button class="_buy-card__close-button">
+        <svg class="_buy-card__close-button__icon" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.53453 5.37827L11.9516 9.79531L10.7695 10.9773L6.35251 6.5603L2.37095 10.5419L1.29262 9.46351L5.27417 5.48196L0.981555 1.18934L2.16358 0.00731885L6.4562 4.29993L10.4377 0.31838L11.5161 1.39672L7.53453 5.37827Z" fill="white" />
+        </svg>
+      </button>
+    </div> -->
+    <div class="_buy-card__content">
+
+      <div class="_new-old-price _buy-card__new-old-price">
+        <div class="_new-old-price__old js-landing-product-price" data-product-code="01020302-00171" data-type="black">1 300 руб.</div>
+        <div class="_new-old-price__new js-landing-product-price" data-product-code="01020302-00171" data-type="base">399 руб.</div>
+      </div>
+
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-00171">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse _buy-card__buy-button">Купить</button>          
+        </div>
+      </div>
+
+      <div class="_buy-card__art"><b>Естественный бежевый</b> (Арт. 6364)</div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="_buy-card _shades__buy-card _shades__buy-card_2">
+  <button class="_plus-button _buy-card__toggle-button">
+    <span class="_plus-button__inner"><span class="_placeholder">&nbsp;</span></span>
+    <span class="_plus-button__outer"><span class="_placeholder">&nbsp;</span></span>
+  </button>
+
+  <div class="_buy-card__container">
+    
+    <div class="_buy-card__content">
+
+      <div class="_new-old-price _buy-card__new-old-price">
+        <div class="_new-old-price__old js-landing-product-price" data-product-code="01020302-00172" data-type="black">1 300 руб.</div>
+        <div class="_new-old-price__new js-landing-product-price" data-product-code="01020302-00172" data-type="base">399 руб.</div>
+      </div>
+
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-00172">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse _buy-card__buy-button">Купить</button>          
+        </div>
+      </div>
+
+      <div class="_buy-card__art"><b>Золотисто-бежевый</b> (Арт. 6379)</div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="_buy-card _shades__buy-card _shades__buy-card_3">
+  <button class="_plus-button _buy-card__toggle-button">
+    <span class="_plus-button__inner"><span class="_placeholder">&nbsp;</span></span>
+    <span class="_plus-button__outer"><span class="_placeholder">&nbsp;</span></span>
+  </button>
+
+  <div class="_buy-card__container">
+    
+    <div class="_buy-card__content">
+
+      <div class="_new-old-price _buy-card__new-old-price">
+        <div class="_new-old-price__old js-landing-product-price" data-product-code="01020302-00170" data-type="black">1 300 руб.</div>
+        <div class="_new-old-price__new js-landing-product-price" data-product-code="01020302-00170" data-type="base">399 руб.</div>
+      </div>
+
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-00170">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse _buy-card__buy-button">Купить</button>          
+        </div>
+      </div>
+
+      <div class="_buy-card__art"><b>Фарфоровый</b> (Арт. 6349)</div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="_buy-card _shades__buy-card _shades__buy-card_4">
+  <button class="_plus-button _buy-card__toggle-button">
+    <span class="_plus-button__inner"><span class="_placeholder">&nbsp;</span></span>
+    <span class="_plus-button__outer"><span class="_placeholder">&nbsp;</span></span>
+  </button>
+
+  <div class="_buy-card__container">
+    
+    <div class="_buy-card__content">
+
+      <div class="_new-old-price _buy-card__new-old-price">
+        <div class="_new-old-price__old js-landing-product-price" data-product-code="01020302-013651" data-type="black">1 300 руб.</div>
+        <div class="_new-old-price__new js-landing-product-price" data-product-code="01020302-013651" data-type="base">399 руб.</div>
+      </div>
+
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-013651">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse _buy-card__buy-button">Купить</button>          
+        </div>
+      </div>
+
+      <div class="_buy-card__art"><b>Слоновая кость</b> (Арт. 6533)</div>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+
+  
+  <div class="_shades__logo">
+    <div class="_shades__logo__part-1">Wet&nbsp;<br>&Dry</div>
+    <div class="_shades__logo__part-2">Perfect&nbsp;<br>Me</div>
+  </div>
+
+</section>
+      <section class="_appearance">
+  <h2 class="visually-hidden">Внешний вид</h2>
+
+  <div class="_appearance__part-1">
+    <div class="_logo-1 _logo-1_bigger _appearance__logo">
+      <div class="_logo-1__part-1">Пудра для лица</div>
+      <div class="_logo-1__part-2">Wet & Dry&nbsp;<br />Perfect Me</div>
+    </div>
+
+    <div class="_brackets-price _brackets-price_bigger _appearance__brackets-price">
+      <!-- <div class="_brackets-price__title">Ваша<br>всего за</div> -->
+      <div class="_brackets-price__content">
+        <div class="_brackets-price__number js-landing-product-price" data-product-code="01020302-00170" data-type="base">296</div>
+        <!-- <div class="_brackets-price__currency">руб.</div> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="_appearance__part-2">
+    <div class="_appearance__box">
+      <img class="_appearance__box__image _appearance__box__image_1" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="01_desktop.png, 01_desktop.webp * 01_tablet.png, 01_tablet.webp * 01_mobile.png, 01_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_2" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="02_desktop.png, 02_desktop.webp * 02_tablet.png, 02_tablet.webp * 02_mobile.png, 02_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_3" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="03_desktop.png, 03_desktop.webp * 03_tablet.png, 03_tablet.webp * 03_mobile.png, 03_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_4" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="04_desktop.png, 04_desktop.webp * 04_tablet.png, 04_tablet.webp * 04_mobile.png, 04_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_5" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="05_desktop.png, 05_desktop.webp * 05_tablet.png, 05_tablet.webp * 05_mobile.png, 05_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_6" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="06_desktop.png, 06_desktop.webp * 06_tablet.png, 06_tablet.webp * 06_mobile.png, 06_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_7" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="07_desktop.png, 07_desktop.webp * 07_tablet.png, 07_tablet.webp * 07_mobile.png, 07_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_8" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="08_desktop.png, 08_desktop.webp * 08_tablet.png, 08_tablet.webp * 08_mobile.png, 08_mobile.webp" />
+      <img class="_appearance__box__image _appearance__box__image_9" src="#" alt="внешний вид" data-lazy-element data-lazy-folder="assets/images/04_appearance/" data-lazy-names="09_desktop.png, 09_desktop.webp * 09_tablet.png, 09_tablet.webp * 09_mobile.png, 09_mobile.webp" />
+    </div>
+
+    <div class="_appearance__toggle-box">
+      <button class="_arrow-button _appearance__toggle-box__button">
+        <span class="_arrow-button__inner">
+          <span class="_arrow-button__icon-box">
+            <svg class="_arrow-button__icon" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.0607 0.93934C12.4749 0.353553 11.5251 0.353553 10.9393 0.93934L1.3934 10.4853C0.807611 11.0711 0.807611 12.0208 1.3934 12.6066C1.97918 13.1924 2.92893 13.1924 3.51472 12.6066L12 4.12132L20.4853 12.6066C21.0711 13.1924 22.0208 13.1924 22.6066 12.6066C23.1924 12.0208 23.1924 11.0711 22.6066 10.4853L13.0607 0.93934ZM13.5 27L13.5 2L10.5 2L10.5 27L13.5 27Z" fill="#15161A" />
+            </svg>
+          </span>
+        </span>
+        <span class="_arrow-button__outer"><span class="_placeholder">&nbsp;</span></span>
+      </button>
+
+      <div class="_appearance__toggle-box__desc">
+        <div class="_appearance__toggle-box__desc__p1">Открыть пудру</div>
+        <div class="_appearance__toggle-box__desc__p2">Закрыть пудру</div>
+      </div>
+    </div>
+
+    <!-- <div class="_new-old-price _appearance__new-old-price">
+      <div class="_new-old-price__old">
+        <div class="_new-old-price__old__number">1300</div>
+        <div class="_new-old-price__old__currency">руб.</div>
+      </div>
+
+      <div class="_new-old-price__new">899 руб.</div>
+    </div> -->
+
+    <div class="_appearance__btns-group btns-group">
+    <div class="_common-buttons">
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-00170">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse">Купить</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="_appearance__select-color select-color">
+        <input class="select-color__radio select-color__radio--1" type="radio" name="radio-color-2" value="01020302-00170" id="2-radio-color-1" data-axapta="01020302-00170" data-article="6349" data-color="фарфоровый" checked>
+        <label class="select-color__label" for="2-radio-color-1">
+        <img class="select-color__img" src="assets/images/02_about/color-1.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Фарфоровый</span>
+            <span class="select-color__tooltip-article">(Арт. 6349)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--2" type="radio" name="radio-color-2" value="01020302-013651" id="2-radio-color-2" data-axapta="01020302-013651" data-article="6533" data-color="слоновая кость">
+        <label class="select-color__label" for="2-radio-color-2">
+        <img class="select-color__img" src="assets/images/02_about/color-2.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Слоновая кость</span>
+            <span class="select-color__tooltip-article">(Арт. 6533)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--3" type="radio" name="radio-color-2" value="01020302-00171" id="2-radio-color-3" data-axapta="01020302-00171" data-article="6364" data-color="естественный бежевый">
+        <label class="select-color__label" for="2-radio-color-3">
+        <img class="select-color__img" src="assets/images/02_about/color-3.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Естественный бежевый</span>
+            <span class="select-color__tooltip-article">(Арт. 6364)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--4" type="radio" name="radio-color-2" value="01020302-00172" id="2-radio-color-4" data-axapta="01020302-00172" data-article="6379" data-color="золотисто-бежевый">
+        <label class="select-color__label" for="2-radio-color-4">
+        <img class="select-color__img" src="assets/images/02_about/color-4.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Золотисто-бежевый</span>
+            <span class="select-color__tooltip-article">(Арт. 6379)</span>
+        </span>
+        </label>
+    </div>
+</div>
+
+    <!-- <p class="_note _appearance__note">* При покупке на сумму от 499 руб. до 7 марта 2021 года</p> -->
+  </div>
+
+  <div class="_appearance__part-3">
+    <ul class="_appearance__list">
+      <li class="_appearance__list__item">
+        <div class="_appearance__list__item__icon-box">
+          <img class="_appearance__list__item__icon _appearance__list__item__icon_1" src="#" alt="Модное исполнение" data-lazy-element data-lazy-folder="assets/images/00_icons/" data-lazy-names="appearance.svg" />
+        </div>
+        <div class="_appearance__list__item__text">
+          <h3 class="_appearance__list__item__text__title">Модное исполнение</h3>
+          <p class="_appearance__list__item__text__desc">незаменимого бьюти-средства<span class="_cbr">&nbsp;</span>в стильной упаковке с магнитным<span class="_cbr">&nbsp;</span>замком.</p>
+        </div>
+      </li>
+
+      <li class="_appearance__list__item">
+        <div class="_appearance__list__item__icon-box">
+          <img class="_appearance__list__item__icon _appearance__list__item__icon_2" src="#" alt="Компактный футляр" data-lazy-element data-lazy-folder="assets/images/00_icons/" data-lazy-names="compact.svg" />
+        </div>
+        <div class="_appearance__list__item__text">
+          <h3 class="_appearance__list__item__text__title">Компактный футляр</h3>
+          <p class="_appearance__list__item__text__desc">с большим зеркалом разделён<span class="_cbr">&nbsp;</span>на две части: тональный продукт<span class="_cbr">&nbsp;</span>и перфорированная подложка<span class="_cbr">&nbsp;</span>с косметическим спонжем.</p>
+        </div>
+      </li>
+
+      <li class="_appearance__list__item">
+        <div class="_appearance__list__item__icon-box">
+          <img class="_appearance__list__item__icon _appearance__list__item__icon_3" src="#" alt="Небольшие отверстия" data-lazy-element data-lazy-folder="assets/images/00_icons/" data-lazy-names="holes.svg" />
+        </div>
+        <div class="_appearance__list__item__text">
+          <h3 class="_appearance__list__item__text__title">Небольшие отверстия</h3>
+          <p class="_appearance__list__item__text__desc">помогают циркулировать воздуху,<span class="_cbr">&nbsp;</span>давая спонжу возможность<span class="_dbr">&nbsp;</span>«дышать»<span class="_mbr">&nbsp;</span>и высохнуть после<span class="_dbr">&nbsp;</span>контакта с водой.</p>
+        </div>
+      </li>
+    </ul>
+
+    <div class="_brackets-price _brackets-price_bigger _appearance__mobile-brackets-price">
+      <!-- <div class="_brackets-price__title">Шок-цена</div> -->
+      <div class="_brackets-price__content">
+        <div class="_brackets-price__number js-landing-product-price" data-product-code="01020302-00170" data-type="base">296</div>
+        <!-- <div class="_brackets-price__currency">руб.</div> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="_methods">
+  <h2 class="_methods__heading">
+    <span class="_methods__heading__part-1">1 продукт,</span>
+    <span class="_methods__heading__part-2">2 способа нанесения,</span>
+    <span class="_methods__heading__part-3">4 разных эффекта</span>
+  </h2>
+
+  <div class="_methods__method _methods__method_1">
+    <div class="_methods__method__number">1</div>
+    <p class="_methods__method__desc">Нанесите пудру&nbsp;<br />сухой кистью&nbsp;<br />или спонжем</p>
+  </div>
+
+  <div class="_methods__method _methods__method_2">
+    <div class="_methods__method__number">2</div>
+    <p class="_methods__method__desc">Для более плотного&nbsp;<br />и ровного покрытия&nbsp;<br />перед использованием&nbsp;<br />бьюти-средства слегка&nbsp;<br />смочите спонж водой&nbsp;<br />и&nbsp;хорошо отожмите его</p>
+  </div>
+
+  <div class="_methods__buy-box">
+
+    <div class="_new-old-price _methods__new-old-price">
+      <div class="_new-old-price__old js-landing-product-price" data-product-code="0199-10571" data-type="black">1 300 руб.</div>
+      <div class="_new-old-price__new js-landing-product-price" data-product-code="0199-10571" data-type="base">399 руб.</div>
+    </div>
+
+    
+    <div class="_methods__btns-group btns-group">
+    <div class="_common-buttons">
+      <div class="js-landing-page-marker">
+        <div class="js-landing-product-triggers" data-product-code="01020302-00170">
+          <button class="js-landing-add-to-cart _common-button _common-button_reverse">Купить</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="_methods__select-color select-color">
+        <input class="select-color__radio select-color__radio--1" type="radio" name="radio-color-3" value="01020302-00170" id="3-radio-color-1" data-axapta="01020302-00170" data-article="6349" data-color="фарфоровый" checked>
+        <label class="select-color__label" for="3-radio-color-1">
+        <img class="select-color__img" src="assets/images/02_about/color-1.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Фарфоровый</span>
+            <span class="select-color__tooltip-article">(Арт. 6349)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--2" type="radio" name="radio-color-3" value="01020302-013651" id="3-radio-color-2" data-axapta="01020302-013651" data-article="6533" data-color="слоновая кость">
+        <label class="select-color__label" for="3-radio-color-2">
+        <img class="select-color__img" src="assets/images/02_about/color-2.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Слоновая кость</span>
+            <span class="select-color__tooltip-article">(Арт. 6533)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--3" type="radio" name="radio-color-3" value="01020302-00171" id="3-radio-color-3" data-axapta="01020302-00171" data-article="6364" data-color="естественный бежевый">
+        <label class="select-color__label" for="3-radio-color-3">
+        <img class="select-color__img" src="assets/images/02_about/color-3.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Естественный бежевый</span>
+            <span class="select-color__tooltip-article">(Арт. 6364)</span>
+        </span>
+        </label>
+        
+        <input class="select-color__radio select-color__radio--4" type="radio" name="radio-color-3" value="01020302-00172" id="3-radio-color-4" data-axapta="01020302-00172" data-article="6379" data-color="золотисто-бежевый">
+        <label class="select-color__label" for="3-radio-color-4">
+        <img class="select-color__img" src="assets/images/02_about/color-4.png" alt="">
+        <span class="select-color__tooltip tooltip">
+            <span class="select-color__tooltip-title">Золотисто-бежевый</span>
+            <span class="select-color__tooltip-article">(Арт. 6379)</span>
+        </span>
+        </label>
+    </div>
+</div>
+
+  </div>
+
+  <img class="_methods__image _methods__image_1" src="#" alt="девушка" data-lazy-element data-lazy-folder="assets/images/05_methods/" data-lazy-names="01_desktop.jpg, 01_desktop.webp * 01_tablet.jpg, 01_tablet.webp * 01_mobile.jpg, 01_mobile.webp" />
+  <img class="_methods__image _methods__image_2" src="#" alt="пудра" data-lazy-element data-lazy-folder="assets/images/05_methods/" data-lazy-names="02_desktop.png, 02_desktop.webp * 02_tablet.png, 02_tablet.webp * 02_mobile.png, 02_mobile.webp" />
+  <img class="_methods__image _methods__image_3" src="#" alt="кисточка" data-lazy-element data-lazy-folder="assets/images/05_methods/" data-lazy-names="03_desktop.png, 03_desktop.webp * 03_tablet.png, 03_tablet.webp * 03_mobile.png, 03_mobile.webp" />
+  <img class="_methods__image _methods__image_4" src="#" alt="пудра" data-lazy-element data-lazy-folder="assets/images/05_methods/" data-lazy-names="04_desktop.jpg, 04_desktop.webp * 04_tablet.jpg, 04_tablet.webp * 04_mobile.jpg, 04_mobile.webp" />
+  <img class="_methods__image _methods__image_5" src="#" alt="спонжик" data-lazy-element data-lazy-folder="assets/images/05_methods/" data-lazy-names="05_desktop.png, 05_desktop.webp * 05_tablet.png, 05_tablet.webp * 05_mobile.png, 05_mobile.webp" />
+  <img class="_methods__image _methods__image_6" src="#" alt="девушка" data-lazy-element data-lazy-folder="assets/images/05_methods/" data-lazy-names="06_desktop.jpg, 06_desktop.webp * 06_tablet.jpg, 06_tablet.webp * 06_mobile.jpg, 06_mobile.webp" />
+</section>
+
+      <section class="_effects">
+  <div class="_effects__part-1">
+    <h2 class="_effects__heading">Тот момент, когда ты&nbsp;<br />совершенно разная,&nbsp;<br />а пудра – одна!</h2>
+    <h3 class="_effects__heading-2">Эффект плотного кремового покрытия&nbsp;<br />или лёгкая цветокоррекция</h3>
+    <p class="_effects__desc">Инновационная гибридная текстура <span class="_effects__desc__special">Wet & Dry</span> была разработана специально для Faberlic косметической итальянской компанией.</p>
+    <div class="_effects__country">
+      <img class="_effects__country__image" src="#" alt="флаг италии" data-lazy-element data-lazy-folder="assets/images/00_icons/" data-lazy-names="italy.svg" />
+      <div class="_effects__country__desc">Ancorotti Cosmetics</div>
+    </div>
+  </div>
+
+  <div class="_effects__part-2">
+    <ul class="_effects__list">
+      <li class="_effects__list__item">
+        <div class="_effects__list__item__video-box">
+          <div class="_effects__list__item__video-box__preview">
+            <img class="_effects__list__item__video-box__preview__image" src="#" alt="девушка" data-lazy-element data-lazy-folder="assets/images/06_effects/" data-lazy-names="01_desktop.jpg, 01_desktop.webp * 01_tablet.jpg, 01_tablet.webp * 01_mobile.jpg, 01_mobile.webp" />
+
+            <button class="_play-button _effects__list__item__video-box__preview__play-button">
+              <span class="_play-button__inner">
+                <span class="_play-button__icon-box">
+                  <svg class="_play-button__icon" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.6211 15.2824L0.613064 0.266666L0.613064 30.2982L26.6211 15.2824Z" fill="white" />
+                  </svg>
+                </span>
+              </span>
+              <span class="_play-button__outer"><span class="_placeholder">&nbsp;</span></span>
+            </button>
+          </div>
+
+          <video class="_effects__list__item__video-box__video" muted loop playsinline load="metadata">
+            <source src="assets/images/06_effects/video-1.webm" type="video/webm" />
+            <source src="#" data-video-src="assets/images/06_effects/video-1.mp4, assets/images/06_effects/video-1-mobile.mp4" type="video/mp4" />
+            <source src="assets/images/06_effects/video-1.ogv" type="video/ogg" />
+          </video>
+        </div>
+        <div class="_effects__list__item__desc">
+          <div class="_effects__list__item__desc__number">1</div>
+          <div class="_effects__list__item__desc__text">Нанесите пудру <span class="_effects__list__item__desc__text__special">кистью</span> на лицо для получения самого лёгкого эффекта</div>
+        </div>
+      </li>
+
+      <li class="_effects__list__item">
+        <div class="_effects__list__item__video-box">
+          <div class="_effects__list__item__video-box__preview">
+            <img class="_effects__list__item__video-box__preview__image" src="#" alt="девушка" data-lazy-element data-lazy-folder="assets/images/06_effects/" data-lazy-names="02_desktop.jpg, 02_desktop.webp * 02_tablet.jpg, 02_tablet.webp * 02_mobile.jpg, 02_mobile.webp" />
+
+            <button class="_play-button _effects__list__item__video-box__preview__play-button">
+              <span class="_play-button__inner">
+                <span class="_play-button__icon-box">
+                  <svg class="_play-button__icon" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.6211 15.2824L0.613064 0.266666L0.613064 30.2982L26.6211 15.2824Z" fill="white" />
+                  </svg>
+                </span>
+              </span>
+              <span class="_play-button__outer"><span class="_placeholder">&nbsp;</span></span>
+            </button>
+          </div>
+
+          <video class="_effects__list__item__video-box__video" muted loop playsinline load="metadata">
+            <source src="assets/images/06_effects/video-2.webm" type="video/webm" />
+            <source src="#" data-video-src="assets/images/06_effects/video-2.mp4, assets/images/06_effects/video-2-mobile.mp4" type="video/mp4" />
+            <source src="assets/images/06_effects/video-2.ogv" type="video/ogg" />
+          </video>
+        </div>
+        <div class="_effects__list__item__desc">
+          <div class="_effects__list__item__desc__number">2</div>
+          <div class="_effects__list__item__desc__text">Нанесите пудру <span class="_effects__list__item__desc__text__special">сухим спонжем</span> для получения средней степени покрытия</div>
+        </div>
+      </li>
+
+      <li class="_effects__list__item">
+        <div class="_effects__list__item__video-box">
+          <div class="_effects__list__item__video-box__preview">
+            <img class="_effects__list__item__video-box__preview__image" src="#" alt="девушка" data-lazy-element data-lazy-folder="assets/images/06_effects/" data-lazy-names="03_desktop.jpg, 03_desktop.webp * 03_tablet.jpg, 03_tablet.webp * 03_mobile.jpg, 03_mobile.webp" />
+
+            <button class="_play-button _effects__list__item__video-box__preview__play-button">
+              <span class="_play-button__inner">
+                <span class="_play-button__icon-box">
+                  <svg class="_play-button__icon" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M26.6211 15.2824L0.613064 0.266666L0.613064 30.2982L26.6211 15.2824Z" fill="white" />
+                  </svg>
+                </span>
+              </span>
+              <span class="_play-button__outer"><span class="_placeholder">&nbsp;</span></span>
+            </button>
+          </div>
+
+          <video class="_effects__list__item__video-box__video" muted loop playsinline load="metadata">
+            <source src="assets/images/06_effects/video-3.webm" type="video/webm" />
+            <source src="#" data-video-src="assets/images/06_effects/video-3.mp4, assets/images/06_effects/video-3-mobile.mp4" type="video/mp4" />
+            <source src="assets/images/06_effects/video-3.ogv" type="video/ogg" />
+          </video>
+        </div>
+        <div class="_effects__list__item__desc">
+          <div class="_effects__list__item__desc__number">3</div>
+          <div class="_effects__list__item__desc__text"><span class="_effects__list__item__desc__text__special">Намочите спонж</span> и нанесите пудру для получения самой высокой степени покрытия</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+      <section class="_video">
+  <h2 class="_video__heading">Непревзойдённые формулы красоты&nbsp;<br>и&nbsp;итальянское качество по&nbsp;отличной цене</h2>
+  
+  <div class="video-wrap _video__container">
+    <div class="video video--enabled">
+      <div class="video-block">
+        <div class="video-block__video _video__preview">
+          <div class="_logo-1 _logo-1_bigger _video__preview__logo">
+            <div class="_logo-1__part-1">Пудра для лица</div>
+            <div class="_logo-1__part-2">Wet & Dry&nbsp;<br>Perfect Me</div>
+          </div>
+          <picture>
+            <img class="_video__preview__image video-block__poster" src="#" alt="пудра" data-lazy-element data-lazy-folder="assets/images/07_video/" data-lazy-names="01_desktop.jpg, 01_desktop.webp * 01_tablet.jpg, 01_tablet.webp * 01_mobile.jpg, 01_mobile.webp">
+            
+          </picture>
+          <div class="video-block__player youtube-player" data-id="rQjZHNuLoPk"> </div>
+          <button class="_play-button _video__preview__play-button" data-yt-play-button>
+            <span class="_play-button__inner">
+              <span class="_play-button__icon-box">
+                <svg class="_play-button__icon" viewBox="0 0 27 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M26.6211 15.2824L0.613064 0.266666L0.613064 30.2982L26.6211 15.2824Z" fill="white"/>
+                </svg>
+              </span>
+            </span>
+            <span class="_play-button__outer"><span class="_placeholder">&nbsp;</span></span>
+          </button>
+          
+        </div>
+      </div>
+    </div>
+  </div>    
+  
+    
+</section>
+
+
+
+      <section class="_share">
+  <h2 class="_share__t1">Делитесь ссылкой в соцсетях и приглашайте друзей</h2>
+  <div class="_share__t2">Чтобы ссылка была реферальной, авторизуйтесь на сайте</div>
+
+  <ul class="_share__list">
+    <li class="_share__list__item">
+      <a class="vk-btn js-share _share__list__item__link" data-share="vk" href="#">
+        <svg class="_share__list__item__icon" height="23" viewBox="0 0 40 23" width="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M39.0667 20.3168C39.0195 20.2162 38.9756 20.1336 38.9346 20.0665C38.2594 18.8671 36.9685 17.3944 35.0646 15.6487L35.0248 15.608L35.004 15.5886L34.9834 15.5684H34.9639C34.0994 14.7549 33.5517 14.2083 33.3223 13.9291C32.9033 13.396 32.8088 12.8555 33.0382 12.3092C33.2008 11.8957 33.8078 11.0237 34.8619 9.68996C35.4155 8.98414 35.8551 8.41728 36.178 7.99091C38.5156 4.9247 39.5283 2.96554 39.2175 2.11248L39.0972 1.91341C39.0157 1.79378 38.8071 1.68335 38.4696 1.58397C38.132 1.48335 37.6996 1.46648 37.1727 1.53366L31.3369 1.57323C31.2434 1.54102 31.1075 1.54317 30.9325 1.58397C30.7566 1.62353 30.668 1.64378 30.668 1.64378L30.5673 1.69439L30.4871 1.75421C30.419 1.79378 30.345 1.8631 30.2636 1.96371C30.1834 2.0634 30.1156 2.18058 30.0622 2.31371C29.4259 3.92656 28.7047 5.42562 27.8934 6.81179C27.3932 7.63846 26.9341 8.35501 26.5154 8.96144C26.0964 9.56757 25.7455 10.0148 25.4626 10.301C25.1785 10.5875 24.9223 10.8175 24.6926 10.9899C24.462 11.1639 24.2873 11.2369 24.1657 11.2105C24.0442 11.1829 23.9289 11.1565 23.821 11.1301C23.6314 11.0105 23.4797 10.8473 23.3656 10.6402C23.2503 10.4341 23.1726 10.174 23.1325 9.8602C23.0924 9.54732 23.0681 9.2777 23.0607 9.05132C23.0548 8.82494 23.0582 8.50378 23.0716 8.09152C23.0849 7.67803 23.0924 7.39767 23.0924 7.25166C23.0924 6.74461 23.102 6.19462 23.1216 5.60169C23.1421 5.00845 23.1592 4.53882 23.1726 4.19251C23.186 3.8462 23.1931 3.47964 23.1931 3.09253C23.1931 2.70664 23.1689 2.40358 23.1216 2.18303C23.0753 1.96371 23.0038 1.75053 22.909 1.54317C22.8142 1.33704 22.6759 1.17661 22.4937 1.06404C22.3115 0.950234 22.0859 0.860358 21.8161 0.793181C21.0999 0.633675 20.1879 0.54748 19.0806 0.533063C16.5684 0.506683 14.9545 0.667417 14.238 1.01373C13.9539 1.15974 13.6977 1.36004 13.4683 1.6128C13.2256 1.90635 13.1914 2.06678 13.3664 2.09316C14.1774 2.2131 14.7506 2.49959 15.0894 2.95235L15.2106 3.19314C15.3054 3.36584 15.4002 3.67258 15.4938 4.11214C15.5883 4.55201 15.6492 5.03851 15.6756 5.57163C15.7437 6.54461 15.7437 7.37742 15.6756 8.07127C15.6091 8.76359 15.5448 9.30408 15.4838 9.68996C15.4232 10.0771 15.3321 10.3896 15.2106 10.6304C15.0894 10.8703 15.0079 11.0163 14.9666 11.0703C14.9265 11.1231 14.8926 11.1565 14.8659 11.1697C14.6899 11.2369 14.5078 11.2703 14.3182 11.2703C14.1301 11.2703 13.9004 11.177 13.6297 10.9899C13.3601 10.8031 13.0798 10.5467 12.7894 10.2194C12.4994 9.89364 12.1715 9.4372 11.8059 8.8501C11.4416 8.26391 11.0642 7.57159 10.672 6.77099L10.3478 6.19125C10.1448 5.81855 9.86812 5.27562 9.51717 4.56152C9.16623 3.84865 8.85539 3.1597 8.58588 2.49223C8.47771 2.2131 8.31514 1.99991 8.09879 1.85237L7.99808 1.79255C7.93 1.73979 7.82214 1.68335 7.67386 1.62231C7.52466 1.56249 7.37048 1.51924 7.2076 1.49286L1.65622 1.53243C1.08924 1.53243 0.704102 1.65942 0.501431 1.91218L0.41999 2.03212C0.379891 2.09929 0.359375 2.20573 0.359375 2.35205C0.359375 2.49959 0.399474 2.67934 0.480915 2.89253C1.29191 4.77133 2.17222 6.58418 3.12527 8.32986C4.07739 10.0771 4.90424 11.4826 5.60612 12.5488C6.30926 13.6153 7.0242 14.6218 7.75406 15.5672C8.48393 16.5138 8.96698 17.1202 9.2026 17.3874C9.43946 17.6545 9.62535 17.8533 9.75994 17.9864L10.2663 18.4668C10.5905 18.7867 11.0664 19.1702 11.6956 19.6159C12.3232 20.0628 13.0192 20.5027 13.7817 20.9364C14.5454 21.3689 15.4329 21.7223 16.4468 21.9956C17.4596 22.2689 18.4456 22.379 19.4048 22.325H21.7349C22.2071 22.2854 22.5655 22.1382 22.8083 21.8854L22.8885 21.7861C22.9429 21.7057 22.9939 21.5821 23.0402 21.4155C23.0874 21.2493 23.1117 21.0658 23.1117 20.8658C23.0983 20.2928 23.1421 19.7766 23.2428 19.3165C23.3435 18.8576 23.4589 18.5113 23.5879 18.2775C23.7166 18.0438 23.8608 17.8475 24.0237 17.688C24.185 17.5275 24.3006 17.4315 24.3684 17.3981C24.4352 17.3644 24.4887 17.3417 24.53 17.3272C24.8543 17.2208 25.2354 17.3251 25.6749 17.6377C26.1135 17.9518 26.525 18.3374 26.9111 18.7975C27.2959 19.2576 27.7588 19.7741 28.2978 20.3468C28.8393 20.9195 29.3118 21.3462 29.7159 21.6266L30.1215 21.8661C30.3923 22.0269 30.7432 22.1729 31.1756 22.306C31.6077 22.44 31.9854 22.4738 32.3096 22.4066L37.4969 22.3262C38.0092 22.3262 38.4086 22.2425 38.6915 22.0759C38.9756 21.9094 39.1435 21.7259 39.1979 21.5272C39.2526 21.3269 39.2551 21.1005 39.2088 20.8465C39.1603 20.5938 39.113 20.4165 39.0667 20.3168Z"></path></svg ></a>
+    </li>
+    <li class="_share__list__item">
+      <a class="ok-btn js-share _share__list__item__link" data-share="ok" href="#">
+        <svg class="_share__list__item__icon" height="30" viewBox="0 0 24 39" width="24" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M10.2509 27.3322C7.23604 27.022 4.51565 26.2896 2.18549 24.4929C1.89663 24.2692 1.59861 24.0531 1.33524 23.8037C0.316871 22.8375 0.213964 21.7321 1.01938 20.5909C1.70967 19.6152 2.86813 19.3538 4.07193 19.9138C4.30474 20.0234 4.52737 20.1591 4.74031 20.3044C9.08071 23.2457 15.0406 23.3287 19.3989 20.4361C19.8309 20.1098 20.2904 19.8429 20.8258 19.7072C21.8666 19.4443 22.8355 19.8213 23.3928 20.7186C24.0317 21.7436 24.0215 22.745 23.2375 23.5403C22.0316 24.7599 20.5828 25.6436 18.973 26.2604C17.4508 26.8416 15.7849 27.1341 14.1333 27.3302C14.384 27.5976 14.4996 27.7288 14.6565 27.8822C16.8975 30.1051 19.1482 32.316 21.3811 34.545C22.1411 35.3051 22.3001 36.2457 21.8824 37.1294C21.4228 38.0936 20.3979 38.7295 19.3927 38.6612C18.7559 38.6179 18.2587 38.3057 17.8165 37.8659C16.1252 36.1873 14.4038 34.539 12.7461 32.8288C12.2647 32.3301 12.0319 32.4241 11.608 32.8564C9.90651 34.5842 8.17748 36.2869 6.43827 37.9775C5.65781 38.7376 4.72859 38.8748 3.82333 38.441C2.85998 37.9815 2.24713 37.0113 2.29501 36.0375C2.3266 35.3775 2.65519 34.8728 3.1147 34.4213C5.33177 32.2376 7.54221 30.0463 9.75521 27.8585C9.90244 27.7132 10.0379 27.5584 10.2509 27.3322Z"></path>
+          <path clip-rule="evenodd" d="M12.0902 19.7207C6.7095 19.7031 2.29573 15.3006 2.32732 9.98133C2.35737 4.60269 6.77318 0.269115 12.2079 0.285201C17.6543 0.298773 22.0242 4.69518 21.9982 10.1286C21.9707 15.4359 17.5269 19.7383 12.0902 19.7207ZM16.9818 9.9949C16.9711 7.35384 14.8406 5.25114 12.1702 5.24913C9.47524 5.24511 7.32643 7.38551 7.3463 10.0517C7.36617 12.6812 9.51548 14.7703 12.1936 14.7603C14.8646 14.7507 16.9889 12.6339 16.9818 9.9949Z"></path></svg ></a>
+    </li>
+    <!-- <li class="_share__list__item">
+      <a class="fb-btn js-share _share__list__item__link" data-share="fb" href="#">
+        <svg class="_share__list__item__icon" height="30" viewBox="0 0 23 39" width="23" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6.89899 38.6878V21.1246H0.171894V14.4065H6.90062V9.33562C6.90062 3.4972 10.9045 0.282211 16.8292 0.282211C19.6659 0.282211 22.1557 0.458023 22.8673 0.538001V6.72852H18.6609C15.4383 6.72852 14.8354 8.07228 14.8354 10.0557V14.4065H22.5464L21.5446 21.1246H14.8354V38.6878H6.89899Z"></path></svg ></a>
+    </li> -->
+    <li class="_share__list__item">
+      <a class="tm-btn wel__goto_tg js-share _share__list__item__link" data-share="tg" href="#">
+        <svg class="_share__list__item__icon" height="35" viewBox="0 0 40 35" width="40" xmlns="http://www.w3.org/2000/svg">
+          <path d="M31.7131 34.1204C31.4104 34.1204 31.1102 34.0339 30.8515 33.8655L21.0904 27.5223L15.8547 31.1313C15.4446 31.4143 14.9149 31.4845 14.439 31.3231C13.963 31.1594 13.6017 30.7804 13.4724 30.3127L10.8435 20.7674L1.45345 17.3269C0.860312 17.1093 0.469771 16.5667 0.46489 15.9609C0.460008 15.3528 0.845666 14.8078 1.43392 14.5833L37.1441 0.965971C37.3052 0.900481 37.4785 0.863058 37.6518 0.851364C37.7128 0.849025 37.7738 0.849025 37.8373 0.851364C38.1937 0.872414 38.5452 1.01275 38.821 1.27003C38.8503 1.29576 38.8771 1.32383 38.9015 1.3519C39.1285 1.60216 39.253 1.90389 39.2774 2.21263C39.2823 2.29215 39.2823 2.36933 39.275 2.44886C39.2701 2.50499 39.2628 2.56113 39.2506 2.61726L33.224 32.9229C33.1264 33.4094 32.7798 33.8187 32.3014 34.0082C32.1134 34.083 31.9133 34.1204 31.7131 34.1204ZM21.9471 24.5214L30.6416 30.1723L35.3329 6.58878L18.3908 22.2106L21.9056 24.4934C21.9203 24.5027 21.9349 24.5121 21.9471 24.5214ZM14.7099 23.2631L15.8742 27.4919L18.3834 25.7611L15.098 23.628C14.9467 23.5274 14.8149 23.4058 14.7099 23.2631ZM6.22782 15.9235L12.6766 18.2858C13.1404 18.4542 13.4895 18.8261 13.6139 19.2846L14.4316 22.255C14.4707 21.9135 14.6318 21.5907 14.8954 21.3475L31.037 6.46482L6.22782 15.9235Z"></path></svg ></a>
+    </li>
+    <li class="_share__list__item">
+      <a class="wa-btn wel__goto_wa js-share _share__list__item__link" data-share="wa" href="#">
+        <svg class="_share__list__item__icon" height="41" viewBox="0 0 42 41" width="42" xmlns="http://www.w3.org/2000/svg">
+          <path d="M41.4852 19.9634C41.4852 30.8675 32.5783 39.706 21.5887 39.706C18.1011 39.706 14.8245 38.8142 11.9723 37.2499L0.957031 40.7488L4.54712 30.1581C2.73498 27.1834 1.69215 23.6931 1.69215 19.9634C1.69215 9.05917 10.599 0.220703 21.5887 0.220703C32.5812 0.220703 41.4852 9.05917 41.4852 19.9634ZM21.5887 3.36346C12.3655 3.36346 4.86054 10.8115 4.86054 19.9634C4.86054 23.5962 6.04584 26.9583 8.04888 29.6936L5.95751 35.8595L12.3855 33.8165C15.0268 35.5518 18.1923 36.5604 21.5887 36.5604C30.8146 36.5604 38.3168 29.1152 38.3168 19.9634C38.3168 10.8115 30.8146 3.36346 21.5887 3.36346ZM31.6381 24.5108C31.5127 24.3085 31.1907 24.186 30.7006 23.9438C30.2134 23.7045 27.8143 22.5334 27.3698 22.371C26.9225 22.2114 26.5977 22.1288 26.2729 22.6132C25.9481 23.0976 25.0106 24.186 24.7257 24.5108C24.4436 24.8328 24.1587 24.8755 23.6686 24.6333C23.1814 24.3911 21.6114 23.8783 19.748 22.2314C18.2977 20.9464 17.3204 19.365 17.0355 18.8806C16.7506 18.3962 17.0042 18.1341 17.2492 17.8919C17.4686 17.6754 17.7364 17.3278 17.9815 17.0457C18.2265 16.7636 18.3063 16.5613 18.4687 16.2365C18.6311 15.9145 18.5513 15.6324 18.4288 15.3903C18.3063 15.1481 17.329 12.7661 16.9244 11.7973C16.5169 10.8286 16.1123 10.991 15.8274 10.991C15.5425 10.991 15.2177 10.9511 14.8929 10.9511C14.5652 10.9511 14.0381 11.0708 13.5907 11.5551C13.1434 12.0395 11.884 13.2106 11.884 15.5926C11.884 17.9717 13.6306 20.2739 13.8757 20.5959C14.1207 20.9179 17.2492 25.9639 22.2069 27.9014C27.1647 29.839 27.1647 29.1922 28.0594 29.1124C28.954 29.0298 30.9457 27.9413 31.3531 26.8102C31.7577 25.679 31.7577 24.7102 31.6381 24.5108Z"></path></svg ></a>
+    </li>
+    <li class="_share__list__item">
+      <a class="vr-btn wel__goto_vr js-share _share__list__item__link" data-share="vi" href="#" target="_blank">
+        <svg class="_share__list__item__icon" height="30" viewBox="0 0 35 35" width="35" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.5748 3.20331C17.9658 3.49599 18.3089 3.52718 19.3309 3.58716C22.3297 3.75749 24.2297 4.39802 26.3432 5.95019C28.9318 7.84302 30.5559 10.4843 31.1724 13.7998C31.3308 14.6586 31.4075 15.3879 31.4627 16.4867C31.4939 17.2232 31.5203 17.5087 31.6858 17.8301C31.9233 18.2692 32.3815 18.5618 32.9117 18.6122C32.9645 18.617 33.0149 18.6194 33.0677 18.6194C33.5403 18.6194 33.9793 18.4179 34.2576 18.07C34.6294 17.6166 34.6294 17.1944 34.5934 16.2852C34.4855 13.4687 33.8713 10.9378 32.763 8.76424C31.9713 7.21687 31.218 6.20208 29.877 4.88982C28.4496 3.49839 27.346 2.72351 25.6643 1.91984C23.8842 1.06818 22.6223 0.799493 20.7775 0.573986C20.4056 0.530803 19.7051 0.475627 19.2181 0.458834C18.2897 0.430046 17.9274 0.454035 17.5004 0.835479C17.1718 1.12336 16.9942 1.56238 17.0086 2.03979C17.023 2.51479 17.2293 2.93702 17.5748 3.20331Z"></path>
+          <path d="M26.9202 15.3814C26.9202 16.1802 26.985 16.9287 27.7719 17.315C27.9878 17.4277 28.2685 17.4829 28.542 17.4829C28.7867 17.4829 29.0242 17.4397 29.2041 17.3485C29.5232 17.1854 29.8446 16.84 29.9694 16.5281C30.1277 16.125 30.0557 14.6808 30.0102 14.2754C29.7967 12.4569 29.1657 10.7392 28.1845 9.30943C26.4044 6.72569 23.7391 5.16153 20.2605 4.66493C19.0802 4.4898 18.2046 4.42983 17.6888 5.21671C17.2858 5.81406 17.3361 6.57695 17.816 7.11193C18.195 7.54375 18.742 7.63972 19.2242 7.6781C20.606 7.78845 22.1534 8.23947 23.1682 8.83203H23.1706C24.3509 9.51575 25.3273 10.5089 25.9966 11.7061C26.582 12.752 26.9202 14.0931 26.9202 15.3814Z"></path>
+          <path d="M23.8929 10.508C23.1156 9.79546 22.2064 9.34924 21.0309 9.10454C20.7622 9.04936 20.3064 8.99898 20.0209 8.98219C19.5315 8.9534 19.33 8.9582 18.9821 9.12613C18.5623 9.33964 18.2672 9.73068 18.1736 10.2009C18.0801 10.6687 18.2 11.1389 18.5047 11.4964C18.8598 11.9018 19.222 12.0026 19.9537 12.0889C21.1772 12.2353 21.8657 12.6479 22.2568 13.4636C22.4535 13.881 22.5638 14.3368 22.6286 14.9941C22.6958 15.6083 22.8157 16.0041 23.2548 16.328C23.5306 16.5343 23.8785 16.6375 24.224 16.6375C24.6006 16.6375 24.9749 16.5151 25.2483 16.2704L25.2507 16.268C25.8169 15.757 25.8409 15.1261 25.6874 14.1377C25.4499 12.5543 24.8981 11.434 23.8929 10.508Z"></path>
+          <path d="M34.6054 27.9206C34.5766 27.3041 34.3655 26.7499 33.9697 26.2725C33.5858 25.8215 31.1412 23.8879 30.0521 23.1418C29.2028 22.5636 27.8618 21.7528 27.2356 21.4337C26.3096 20.9731 25.3788 20.8939 24.4624 21.1962C24.2609 21.2634 24.1193 21.3233 23.985 21.3929C23.5196 21.6376 23.1789 22.0214 22.5168 22.8347C21.8091 23.6912 21.6603 23.8591 21.6627 23.8591C21.5955 23.8975 21.49 23.9551 21.3604 24.015C20.8327 24.2549 19.9666 24.0558 18.5608 23.3721C17.3733 22.7963 16.3081 22.0598 15.1062 20.9827C14.0794 20.0686 13.0478 18.8835 12.4769 17.9647C11.6828 16.6908 11.2006 15.2154 11.1958 14.5293C11.1958 14.263 11.3109 13.8792 11.4381 13.6681L11.4933 13.6105C11.5317 13.5745 11.5724 13.5361 11.63 13.4857C11.8267 13.3082 12.1146 13.0707 12.4121 12.8332C13.7196 11.804 14.1346 11.3866 14.3553 10.6117C14.5688 9.8944 14.3817 9.01156 13.7651 7.83604C12.8439 6.07996 9.92431 2.34228 8.70801 1.55301C8.50649 1.42826 8.17783 1.26033 7.94512 1.18116C7.44373 1.00363 6.72642 0.943656 6.2802 1.03962C5.66365 1.16677 4.98473 1.55541 3.49014 2.64216C2.66968 3.24192 1.4054 4.41504 1.06234 4.97641C0.253866 6.33425 0.46018 7.51217 1.19428 9.48657C1.89239 11.3722 2.78963 13.2674 3.85479 15.1195L3.90997 15.213C4.12348 15.5825 4.34419 15.9519 4.5745 16.3238L4.63447 16.4173C4.86238 16.782 5.09509 17.1442 5.33739 17.5065L5.71883 18.0631C5.86277 18.2694 6.00431 18.4781 6.15065 18.682C6.44094 19.0874 6.73841 19.4905 7.04549 19.8935C10.3321 24.171 14.1202 27.6088 18.6208 30.394L18.8055 30.5116C19.458 30.9122 20.1537 31.3104 20.8734 31.6991L21.1517 31.8502C21.8954 32.2461 22.6007 32.6011 23.3108 32.9322L23.5316 33.0329C24.3688 33.4216 25.1341 33.7527 25.8706 34.0501C26.763 34.41 27.1757 34.5203 27.8018 34.5203C27.9146 34.5203 28.0321 34.5179 28.1617 34.5107C28.5671 34.4916 28.9293 34.4316 29.2748 34.326C29.757 34.1797 30.2416 33.935 30.7934 33.5511C30.8917 33.4864 30.9877 33.4192 31.0909 33.3424C31.2132 33.2513 31.3452 33.1409 31.4771 33.0257C32.108 32.4812 32.8302 31.6895 33.4131 30.9074C33.725 30.49 34.1376 29.883 34.3439 29.3624C34.5383 28.8778 34.6246 28.3908 34.6054 27.923V27.9206Z"></path></svg ></a>
+    </li>
+  </ul>
+</section>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/external/youtube.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+      $(".btns-group").each(function(){
+        var $shades = $(this),
+            $radios = $shades.find('.select-color__radio');
+            
+        $radios.on("change", function() {
+            var $radio = $(this),
+                $productCode = $shades.find('[data-product-code]'),
+                $dataCode = $shades.find('[data-code]'),
+                $axapta = $radio.data("axapta");
+
+            $productCode.attr("data-product-code", $axapta);
+            $dataCode.attr("data-code", $axapta);
+        }).eq(0).trigger("click");
+      });
+    </script>
+  </body>
+</html>
